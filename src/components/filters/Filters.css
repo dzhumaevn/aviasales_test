@@ -1,0 +1,48 @@
+.filtersContainer {
+	background: #FFFFFF;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	border: 1px solid #4a4a4a30;
+}
+
+.header {
+	font-size: 1em;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding: 0 9%;
+	color: #4A4A4A;
+	letter-spacing: 1px;
+}
+
+.form-check {
+	display: flex;
+	flex-direction: column;
+	padding: 4% 18%;
+	font-weight: normal;
+	justify-content: center;
+}
+
+.form-check:hover {
+	background: #F1FCFF;
+	cursor: pointer;
+}
+
+.form-check input {
+	border: 1px solid #9ABBCE;
+	box-sizing: border-box;
+	border-radius: 2px;
+	margin-top: 0;
+}
+
+label {
+	text-transform: none;
+	font-size: 1.1em;
+}
+
+input:hover {
+	cursor: pointer;
+}
+
+label:hover {
+	cursor: pointer;
+}

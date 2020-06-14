@@ -1,0 +1,17 @@
+.tickets {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.tickets button {
+	color: #ffffff;
+	border-radius: 3px;
+	background: #2196F3;
+	padding: 2% 5%;
+}
+
+.tickets button:active {
+	transform: scale(0.95);
+}
